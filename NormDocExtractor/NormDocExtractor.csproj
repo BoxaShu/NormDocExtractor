@@ -30,23 +30,33 @@
     <DefineConstants>VSTO40</DefineConstants>
     <ResolveComReferenceSilent>true</ResolveComReferenceSilent>
     <IsWebBootstrapper>False</IsWebBootstrapper>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <ShouldCreateLogs>True</ShouldCreateLogs>
+    <AdvancedSettingsExpanded>False</AdvancedSettingsExpanded>
+    <UpdateAssemblyVersion>False</UpdateAssemblyVersion>
+    <UpdateAssemblyFileVersion>True</UpdateAssemblyFileVersion>
+    <UpdateAssemblyInfoVersion>True</UpdateAssemblyInfoVersion>
+    <UpdatePackageVersion>False</UpdatePackageVersion>
+    <AssemblyInfoVersionType>SettingsVersion</AssemblyInfoVersionType>
+    <InheritWinAppVersionFrom>None</InheritWinAppVersionFrom>
+    <AssemblyFileVersionSettings>None.None.None.Increment</AssemblyFileVersionSettings>
+    <AssemblyInfoVersionSettings>None.None.None.Increment</AssemblyInfoVersionSettings>
     <BootstrapperEnabled>true</BootstrapperEnabled>
     <PublishUrl>Z:\4_БАЗА_ДАННЫХ\САПР\03-Опубликовано\NSC_Wrd_S_NormDocExtractor\</PublishUrl>
     <InstallUrl />
     <TargetCulture>ru</TargetCulture>
-    <ApplicationVersion>1.0.0.1</ApplicationVersion>
+    <ApplicationVersion>1.0.0.7</ApplicationVersion>
     <AutoIncrementApplicationRevision>true</AutoIncrementApplicationRevision>
     <UpdateEnabled>true</UpdateEnabled>
     <UpdateInterval>7</UpdateInterval>
     <UpdateIntervalUnits>days</UpdateIntervalUnits>
     <ProductName>NormDocExtractor</ProductName>
-    <PublisherName />
+    <PublisherName>Шульжицкий Владимир</PublisherName>
     <SupportUrl />
     <FriendlyName>NormDocExtractor</FriendlyName>
-    <OfficeApplicationDescription />
+    <OfficeApplicationDescription>Плагин для Microsoft Word, который извлекает из документа все упоминания нормативных документов %28ГОСТ, СНиП, СП, СанПиН, ТУ, РД, ВСН, МДС, СТО, НПБ, ПБ, ПУЭ, ФЗ%29, формирует удобный отчёт-таблицу и позволяет быстро проверять актуальность и заменять устаревшие номера прямо из отчёта.</OfficeApplicationDescription>
     <LoadBehavior>3</LoadBehavior>
-    <NuGetPackageImportStamp>
-    </NuGetPackageImportStamp>
   </PropertyGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.8">
@@ -240,7 +250,9 @@
       <DependentUpon>ReplaceDialog.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="NormDocExtractor_1_TemporaryKey.pfx" />
-    <None Include="NormDocExtractor_TemporaryKey.pfx" />
+    <None Include="NormDocExtractor_TemporaryKey.pfx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -275,10 +287,10 @@
     <SignManifests>true</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>NormDocExtractor_1_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>NormDocExtractor_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>CD8B4C524AAA52E4480F38D966E9BC13298E9E23</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>B735EC4FC7423440338E233DF12DD66281EAEF2B</ManifestCertificateThumbprint>
   </PropertyGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- Include additional build rules for an Office application add-in. -->
