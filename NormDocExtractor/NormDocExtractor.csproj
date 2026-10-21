@@ -249,7 +249,6 @@
     <EmbeddedResource Include="ReplaceDialog.resx">
       <DependentUpon>ReplaceDialog.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="NormDocExtractor_1_TemporaryKey.pfx" />
     <None Include="NormDocExtractor_TemporaryKey.pfx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

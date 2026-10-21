@@ -1,6 +1,7 @@
 <Solution>
   <Folder Name="/Элементы решения/">
     <File Path=".editorconfig" />
+    <File Path="CHANGELOG.md" />
     <File Path="README.md" />
   </Folder>
   <Project Path="NormDocExtractor/NormDocExtractor.csproj" Id="00a548c9-edc9-4414-ad0e-3a1418167c96" />
