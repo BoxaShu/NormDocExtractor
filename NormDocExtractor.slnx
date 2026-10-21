@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/Элементы решения/">
+    <File Path=".editorconfig" />
+  </Folder>
+  <Project Path="NormDocExtractor/NormDocExtractor.csproj" Id="00a548c9-edc9-4414-ad0e-3a1418167c96" />
+</Solution>
